@@ -227,7 +227,9 @@ const CV = () => {
           </div>
         </div>
       </div>
-      <button onClick={handlePrint}>Print this out!</button>
+      <button className={s.printBtn} onClick={handlePrint}>
+        Print this out!
+      </button>
     </div>
   );
 };

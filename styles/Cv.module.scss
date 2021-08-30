@@ -13,6 +13,7 @@
 .page {
   // border: 1px dashed blue;
   background: white;
+  max-width: 100vw;
   height: 297mm;
   width: 210mm;
   display: grid;
@@ -162,9 +163,22 @@
     border-bottom: 1px solid black;
   }
 }
+.printBtn {
+  margin-top: 1rem;
+  padding: 1rem;
+}
 
 @media print {
   .detail * {
     font-size: 12pt !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page {
+    width: 100vh;
+    .detail {
+      width: 490px;
+    }
   }
 }
