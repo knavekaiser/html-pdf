@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/SCSS/*": ["components/SCSS/*"]
+    }
+  }
+}
