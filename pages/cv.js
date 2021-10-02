@@ -76,14 +76,14 @@ const CV = () => {
                 <tbody>
                   <tr>
                     <td>
-                      Intermship in bangladesh medical
+                      Internship in bangladesh medical
                       <br /> college (1 month)
                     </td>
                     <td>2020</td>
                   </tr>
                   <tr>
                     <td>
-                      Intermship at Tamanna Pharmacy
+                      Internship at Tamanna Pharmacy
                       <br /> (1 month)
                     </td>
                     <td>2020</td>
